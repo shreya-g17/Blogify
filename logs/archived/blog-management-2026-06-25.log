@@ -1,0 +1,105 @@
+2026-06-25 00:16:00 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-06-25 00:16:00 [main] INFO  c.b.BlogManagementApplication - Starting BlogManagementApplication v0.0.1-SNAPSHOT using Java 22.0.1 with PID 12664 (C:\Users\ishwa\Desktop\Storage Drive\Documents\Shreya Gupta\JavaProject\target\blog-management-system-0.0.1-SNAPSHOT.jar started by ishwa in C:\Users\ishwa\Desktop\Storage Drive\Documents\Shreya Gupta\JavaProject)
+2026-06-25 00:16:00 [main] DEBUG c.b.BlogManagementApplication - Running with Spring Boot v3.3.1, Spring v6.1.10
+2026-06-25 00:16:00 [main] INFO  c.b.BlogManagementApplication - The following 1 profile is active: "dev"
+2026-06-25 00:16:02 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-25 00:16:02 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58 ms. Found 2 JPA repository interfaces.
+2026-06-25 00:16:04 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-06-25 00:16:04 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-06-25 00:16:04 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-25 00:16:04 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2026-06-25 00:16:04 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-25 00:16:04 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3184 ms
+2026-06-25 00:16:04 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-25 00:16:04 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:blogdb user=SA
+2026-06-25 00:16:04 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-25 00:16:04 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:blogdb'
+2026-06-25 00:16:05 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-25 00:16:05 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2026-06-25 00:16:05 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-06-25 00:16:05 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-25 00:16:05 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-25 00:16:06 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-25 00:16:07 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-25 00:16:07 [main] DEBUG c.b.security.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2026-06-25 00:16:07 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-06-25 00:16:07 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-25 00:16:08 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-25 00:16:08 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 4 endpoints beneath base path '/actuator'
+2026-06-25 00:16:09 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-06-25 00:16:09 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-06-25 00:16:09 [main] INFO  c.b.BlogManagementApplication - Started BlogManagementApplication in 9.591 seconds (process running for 10.26)
+2026-06-25 00:20:57 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-25 00:20:57 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-06-25 00:20:57 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-06-25 00:25:24 [http-nio-8080-exec-4] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 690 ms
+2026-06-25 00:33:35 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-06-25 00:33:35 [main] INFO  c.b.BlogManagementApplication - Starting BlogManagementApplication v0.0.1-SNAPSHOT using Java 22.0.1 with PID 13856 (C:\Users\ishwa\Desktop\Storage Drive\Documents\Shreya Gupta\JavaProject\target\blog-management-system-0.0.1-SNAPSHOT.jar started by ishwa in C:\Users\ishwa\Desktop\Storage Drive\Documents\Shreya Gupta\JavaProject)
+2026-06-25 00:33:35 [main] DEBUG c.b.BlogManagementApplication - Running with Spring Boot v3.3.1, Spring v6.1.10
+2026-06-25 00:33:35 [main] INFO  c.b.BlogManagementApplication - The following 1 profile is active: "dev"
+2026-06-25 00:33:40 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-25 00:33:41 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 379 ms. Found 2 JPA repository interfaces.
+2026-06-25 00:33:43 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-06-25 00:33:43 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-06-25 00:33:43 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-25 00:33:43 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2026-06-25 00:33:43 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-25 00:33:43 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7217 ms
+2026-06-25 00:33:43 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-25 00:33:45 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:blogdb user=SA
+2026-06-25 00:33:45 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-25 00:33:45 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:blogdb'
+2026-06-25 00:33:51 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-25 00:33:52 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2026-06-25 00:33:52 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-06-25 00:33:52 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-25 00:33:53 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-25 00:33:54 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-25 00:33:54 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-25 00:33:55 [main] DEBUG c.b.security.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2026-06-25 00:33:55 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-06-25 00:33:55 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-25 00:33:56 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-25 00:33:57 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 4 endpoints beneath base path '/actuator'
+2026-06-25 00:33:59 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-06-25 00:33:59 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-06-25 00:33:59 [main] INFO  c.b.BlogManagementApplication - Started BlogManagementApplication in 26.519 seconds (process running for 28.758)
+2026-06-25 00:35:21 [http-nio-8080-exec-6] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-25 00:35:21 [http-nio-8080-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-06-25 00:35:21 [http-nio-8080-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2026-06-25 00:40:36 [http-nio-8080-exec-5] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 850 ms
+2026-06-25 20:08:47 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2026-06-25 20:08:47 [main] INFO  c.b.BlogManagementApplication - Starting BlogManagementApplication using Java 22.0.1 with PID 5168 (C:\Users\ishwa\Desktop\Storage Drive\Documents\Shreya Gupta\JavaProject\target\classes started by ishwa in C:\Users\ishwa\Desktop\Storage Drive\Documents\Shreya Gupta\JavaProject)
+2026-06-25 20:08:47 [main] DEBUG c.b.BlogManagementApplication - Running with Spring Boot v3.3.1, Spring v6.1.10
+2026-06-25 20:08:47 [main] INFO  c.b.BlogManagementApplication - The following 1 profile is active: "dev"
+2026-06-25 20:08:48 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-25 20:08:48 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 64 ms. Found 2 JPA repository interfaces.
+2026-06-25 20:08:49 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-06-25 20:08:49 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-06-25 20:08:49 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-25 20:08:49 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2026-06-25 20:08:50 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-25 20:08:50 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2600 ms
+2026-06-25 20:08:50 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-25 20:08:50 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:blogdb user=SA
+2026-06-25 20:08:50 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-25 20:08:50 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:blogdb'
+2026-06-25 20:08:50 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-25 20:08:50 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2026-06-25 20:08:50 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-06-25 20:08:51 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-25 20:08:51 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-25 20:08:52 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-25 20:08:52 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-25 20:08:52 [main] DEBUG c.b.security.JwtAuthenticationFilter - Filter 'jwtAuthenticationFilter' configured for use
+2026-06-25 20:08:52 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-06-25 20:08:52 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-25 20:08:53 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-06-25 20:08:54 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 4 endpoints beneath base path '/actuator'
+2026-06-25 20:08:55 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-06-25 20:08:55 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-06-25 20:08:55 [main] INFO  c.b.BlogManagementApplication - Started BlogManagementApplication in 8.613 seconds (process running for 9.165)
+2026-06-25 20:09:43 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-25 20:09:43 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-06-25 20:09:43 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2026-06-25 20:14:20 [http-nio-8080-exec-2] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 1285 ms

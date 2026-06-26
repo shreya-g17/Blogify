@@ -1,0 +1,3 @@
+com\blogmanagement\service\UserServiceTest.class
+com\blogmanagement\service\AuthenticationServiceTest.class
+com\blogmanagement\service\BlogServiceTest.class
