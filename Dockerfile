@@ -9,6 +9,6 @@ RUN mvn clean package -DskipTests
 # Runtime stage
 FROM eclipse-temurin:22-jre-jammy
 WORKDIR /app
-COPY --from=build /app/target/blog-management-system-*.jar app.jar
+COPY --from=build /app/target/blogify-*.jar app.jar
 EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "-Dspring.profiles.active=prod", "app.jar"]
